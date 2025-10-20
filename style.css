@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #0d0d0d;
+  color: #fff;
+  min-height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
+}
+
+.logo {
+  color: #fff;
+  font-size: 1.5em;
+}
+
+.logo span {
+  color: #b026ff;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #b026ff;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 100px 80px;
+  flex-wrap: wrap;
+}
+
+.content {
+  max-width: 500px;
+}
+
+h3 {
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 2.8em;
+  margin: 10px 0;
+}
+
+h1 span, h2 span {
+  color: #b026ff;
+}
+
+p {
+  margin: 20px 0;
+  line-height: 1.6;
+  color: #aaa;
+}
+
+.socials a {
+  color: #fff;
+  font-size: 1.2em;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+.socials a:hover {
+  color: #b026ff;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 25px;
+  border: 2px solid #b026ff;
+  border-radius: 30px;
+  color: #b026ff;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  background-color: #b026ff;
+  color: #fff;
+}
+
+.photo img {
+  width: 300px;
+  border-radius: 50%;
+  box-shadow: 0 0 20px #b026ff;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  header {
+    padding: 20px;
+    justify-content: center;
+  }
+}
